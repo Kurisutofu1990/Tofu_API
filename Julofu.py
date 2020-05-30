@@ -6,6 +6,7 @@ to_do_list = Flask(__name__)
 api = Api(to_do_list)
 Data = []
 
+"""Basic Class"""
 
 class Entries(Resource):
     """Basic Class"""
